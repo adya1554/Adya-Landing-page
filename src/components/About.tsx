@@ -137,7 +137,7 @@ const About = () => {
                   <div className="terminal-line">
                     <GitBranch className="text-green-400 mr-3" size={16} />
                     <span className="text-white">GITHUB="<a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
-        Available on request
+        Available on request.
       </a>
 "</span>
                   </div>
