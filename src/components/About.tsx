@@ -51,7 +51,7 @@ const About = () => {
                     <p>Motivated and technically skilled graduate with solid foundation in</p>
                     <p>AWS cloud services and Linux system administration. Experienced in</p>
                     <p>managing Linux environments, command line operations, and AWS services</p>
-                    <p>including EC2, S3, IAM, and VPC.</p>
+                    <p>including EC2, S3, IAM, VPC, ELB, Route53 and Lamda.</p>
                     <br />
                     <p>Comfortable with server management, networking concepts, and</p>
                     <p>troubleshooting. Eager to contribute to cloud-focused teams and</p>
@@ -76,7 +76,7 @@ const About = () => {
                   <div className="border-l-2 border-green-400 pl-4">
                     <div className="terminal-line">
                       <BookOpen className="text-green-400 mr-2" size={16} />
-                      <span className="text-white font-bold">B.C.A - Rani Channamma University</span>
+                      <span className="text-white font-bold">B.C.A - Rani Channamma University, Karnataka.</span>
                     </div>
                     <div className="terminal-line">
                       <span className="text-green-300">K.L.E' Society's BCA College, Nipani</span>
@@ -130,11 +130,16 @@ const About = () => {
                   </div>
                   <div className="terminal-line">
                     <Linkedin className="text-green-400 mr-3" size={16} />
-                    <span className="text-white">LINKEDIN="Available on request"</span>
+                    <span className="text-white">LINKEDIN=" <a href="https://www.linkedin.com/adi-magadum/" target="_blank" rel="noopener noreferrer">
+        Available on request
+      </a>"</span>
                   </div>
                   <div className="terminal-line">
                     <GitBranch className="text-green-400 mr-3" size={16} />
-                    <span className="text-white">GITLAB="Available on request"</span>
+                    <span className="text-white">GITHUB="<a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+        Available on request
+      </a>
+"</span>
                   </div>
                 </div>
               </div>
